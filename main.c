@@ -3,7 +3,7 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-main() {
+int main() {
 	int width, height, area;
 	printf("masukkan panjang : ");
 	scanf("%d",&width);
@@ -15,4 +15,6 @@ main() {
 	
 	printf("jadi luasnya : %d", area);
 	printf("\n");
+
+	return 0;
 }
